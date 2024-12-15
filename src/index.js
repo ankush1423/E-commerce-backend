@@ -4,7 +4,6 @@ import { connectDB } from "./db/connetDB.js";
 const port = process.env.PORT || 8080
 
 
-
 // CONNECTION TO DATABASE AND STARTING A PORT
 connectDB()
 .then(() => {
