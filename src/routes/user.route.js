@@ -13,7 +13,6 @@ import {authUser} from "../middlewares/auth.middleware.js"
 
 const router = express.Router()
 
-
 router.route("/register").post(upload.single("avatar"),registerUser)
 
 router.route("/login").post(loginUser)
