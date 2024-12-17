@@ -14,10 +14,9 @@ const CartSchema = new mongoose.Schema({
                 required : true,
                 default : 1
             }
-        }
+        }   
     ]
 },{timestamps : true})
-
 
 
 export const Cart = mongoose.model("Cart",CartSchema)
