@@ -22,10 +22,12 @@ app.use(cookieParser())
 //ROUTES OF OUR API
 import userRoutes from "./routes/user.route.js"
 import reviewRoutes from "./routes/review.route.js"
+import productRoutes from "./routes/product.route.js"
+
 
 app.use("/api/v1/user",userRoutes)
 app.use("/api/v1/reviews",reviewRoutes)
-
+app.use("/api/v1/products"productRoutes)
 
 app.use(notFound)
 export {app}
