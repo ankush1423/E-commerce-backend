@@ -1,5 +1,5 @@
 import express from "express"
-import {authUser} from "../middleware/auth.middleware.js"
+import {authUser} from "../middlewares/auth.middleware.js"
 import {
         getAllWhishList,
         createWhishList,

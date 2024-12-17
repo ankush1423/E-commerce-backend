@@ -2,7 +2,7 @@ import {Product} from "../models/product.model.js"
 import {ApiResponse} from "../utils/ApiResponse.js"
 import {ApiError} from "../utils/ApiError.js"
 import {asyncHandler} from "../utils/asyncHandler.js"
-import {uploadOnCloudnary} from "../utils/cloudinary.js"
+
 
 
 export const getAllProducts = asyncHandler(async(req,res) => {

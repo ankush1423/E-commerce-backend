@@ -25,13 +25,14 @@ import reviewRoutes from "./routes/review.route.js"
 import productRoutes from "./routes/product.route.js"
 import whishListRoutes from "./routes/whishlist.route.js"
 import cartRoutes from "./routes/cart.route.js"
+import orderRoutes from "./routes/order.route.js"
 
 app.use("/api/v1/user",userRoutes)
 app.use("/api/v1/reviews",reviewRoutes)
 app.use("/api/v1/products",productRoutes)
 app.use("/api/v1/whish-list",whishListRoutes)
 app.use("/api/v1/cart",cartRoutes)
-
+app.use("/api/v1/order",orderRoutes)
 
 app.use(notFound)
 export {app}
